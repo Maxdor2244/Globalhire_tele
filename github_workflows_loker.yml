@@ -21,7 +21,7 @@ jobs:
 
       - name: Jalankan Script Loker
         env:
-          BOT_TOKEN: ${{ secrets.8743484904:AAElRmus2Gykpl_QvRkT5SX-ysLpSAUku9U }}
-          CHAT_ID: ${{ secrets.-1001234567890 }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
           CV_FORM_URL: ${{ secrets.CV_FORM_URL }}
         run: python fetch_loker.py
